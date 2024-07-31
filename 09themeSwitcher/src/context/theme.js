@@ -2,7 +2,9 @@ import React, { createContext, useContext } from 'react'
 
 export const ThemeContext = createContext({
     themeMode:"light",
-    lightTheme:()=>{},
+
+    //below funcionality hai methord ki, yaha iske definations nahi likhte ,only name is written
+    lightTheme:()=>{},        
     darkTheme:()=>{}
 })
 
